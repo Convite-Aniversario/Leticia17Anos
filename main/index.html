@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Halant:wght@300;400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Zen+Antique&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <meta property="og:image" content="http://digitalconvite.com.br/MariaEduarda/img/logo.png">
+
+    <title id="title">Clara no país das maravilhas</title>
+</head>
+
+
+<body>
+   <!--  <div class="inicio" onclick="playaudio(),removeModal() "> -->
+    <div class="inicio" onclick="removeModal(), playaudio() ">
+   
+    </div>
+    
+        <div class="container_envelope">  
+            <div class="nomes_container">
+
+            </div>
+
+
+
+            <ul>
+           
+                <li>
+                    <a href="https://api.whatsapp.com/send/?phone=5571999288303&text=Ol%C3%A1,+gostaria+de+confirmar+presen%C3%A7a+no+anivers%C3%A1rio!%0A🎩🐇🦋&type=phone_number&app_absent=0" target="_blank">
+
+                        <img src="img/whats.svg" class="icons">
+                        <p class="frase font-2-m" id="event-details-text">
+                            Confirmar<br>presença</p> 
+                    </a>
+                </li>
+
+                <li>
+                    
+                    <a href="https://maps.app.goo.gl/ogHa8oskoBAVtN889" target="_blank" data-anime="1500">
+                        <img src="img/locali.svg" class="icons">
+                        <p class="frase font-2-m">
+                            Como <br> chegar</p>  
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank" data-anime="1500"  data-target="lista" class="anime" >
+                        <img src="img/lista.svg" class="icons">
+                        <p class="frase font-2-m">
+                            lista de <br>presentes</p>  
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" data-anime="1500"  data-target="vestimenta" class="anime" >
+                        <img src="img/vestimenta.svg" class="icons">
+                        <p class="frase font-2-m">
+                            Informações  <br>vestimenta</p>  
+                    </a>
+                </li>
+            </ul>
+
+            
+            
+        </div>
+
+        <!-- Modal -->
+         
+        <div class="modal" id="modal-lista" style="display:none;">
+            <div class="modal-content">
+              <span class="close-btn close">&times;<span style="font-size: 0.6rem;"> VOLTAR</span>
+            </div>
+          </div>
+          <div class="modal" id="modal-vestimenta" style="display:none;">
+            <div class="modal-content">
+              <span class="close-btn close">&times;<span style="font-size: 0.6rem;"> VOLTAR</span>
+            </div>
+          </div>
+
+
+
+          <audio id="audio">
+            <source src="audio/musica.mp3" type="audio/mp3">
+        
+        </audio>
+
+
+
+<!-- <audio src="audio/musica.mp3" id="audio" autoplay>
+
+</audio>
+ -->
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
